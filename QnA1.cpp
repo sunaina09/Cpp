@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 #include <iomanip>
 using namespace std;
 
@@ -52,12 +51,12 @@ void primitiveValuesLimit(){
 
 void arithmaticOps(){
  int a=8,b=2;
- double c=4.0,d=2.4;
+ double c=4.2,d=2.4;
 
  cout<<"Addition: "<<a+b<<" ,"<<c+d<<" ,"<<b+c<<endl;
- cout<<"Subtraction: "<<a+b<<" ,"<<c-d<<" ,"<<b-c<<endl;
- cout<<"Multiplication: "<<a+b<<" ,"<<c*d<<" ,"<<b*c<<endl;
- cout<<"Divison: "<<a+b<<" ,"<<c/d<<" ,"<<b/c<<endl<<endl;
+ cout<<"Subtraction: "<<a-b<<" ,"<<c-d<<" ,"<<b-c<<endl;
+ cout<<"Multiplication: "<<a*b<<" ,"<<c*d<<" ,"<<b*c<<endl;
+ cout<<"Divison: "<<a/b<<" ,"<<c/d<<" ,"<<b/c<<endl<<endl;
 }
 
 void overflow(){

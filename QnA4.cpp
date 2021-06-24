@@ -2,10 +2,6 @@
 #include <ctime>
 using namespace std;
 
-class myClass {
-
-public :
-
 //31.Write a program in C++ to input a single digit number and print a rectangular form of 4 columns and 6 rows.
 void num(int a){
 cout<<"Input the number :"<<a<<endl;
@@ -106,18 +102,17 @@ cout<<"Input the height of the rectangle:"<<h<<endl;
 cout<<"The area of the rectangle is: "<<w*h<<endl;
 cout<<"The perimeter of the rectangle is:"<<2*(w+h)<<endl<<endl;
 }
-};
-myClass obj;
+
 
 int main(){
-obj.num(5);
-obj.numCheck(8);
-obj.division(30,10);
-obj.cTime();
-obj.result();
-obj.typecasting();
-obj.mult(5);
-obj.pattern();
-obj.rect(8.5,5.6);
+num(5);
+numCheck(8);
+division(30,10);
+cTime();
+result();
+typecasting();
+mult(5);
+pattern();
+rect(8.5,5.6);
 return 0;
 }

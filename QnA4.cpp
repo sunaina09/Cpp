@@ -78,21 +78,7 @@ void typecasting(){
 }
 
 //37. Write a program in C++ to print a mystery series from 1 to 50.
-void series(){
- cout<<" The series are: \n";
-    for (int i=2;i<=50;i++){
-       if ((i%3)==0){
-           continue;
-       }
-       if ((i%2)==0){
-          i+3;
-       }else
-       {
-          i-3;
-       }cout<<i<<" ";
-    }
-    cout<<endl<<endl;
-}
+
 
 //38.Write a program in C++ that takes a number as input and prints its multiplication table upto 10.
 void mult(int z){

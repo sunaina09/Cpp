@@ -6,19 +6,28 @@ class Animal{
    void animalSound(){
    cout << "The animal makes a sound \n" ;
   }
+   //Method overloading
+  void animalSound(string name= "Tiger"){
+   cout << "The animal makes a sound"+ name<< "\n" ;
+  }
+
 };
 
 class Cat: public Animal {
   public :
-   void animalSound(string animal){
-   cout<<"The Cat says: meow meow \n"+ animal;
+   void animalSound(){
+   cout << "The Cat says: meow meow \n" ;
+  }
+
+   void animalSound(string name){
+   cout<<"The Cat says: meow meow" + name<< endl;
    }
 };
 
 class Dog: public Animal{
   public:
-   void animalSound(string animal){
-   cout<<"The dog says: bow wow \n" + animal;
+   void animalSound(string name){
+   cout<<"The dog says: bow wow " + name<< endl;
    }
 };
 
@@ -35,7 +44,7 @@ int main(){
   Dog myDog;
   Pig myPig;
 
-  myCat.animalSound("Cat");
+  myCat.animalSound();
   myDog.animalSound("Dog");
   myPig.animalSound();
 }
